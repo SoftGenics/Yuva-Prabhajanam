@@ -1,0 +1,87 @@
+.join-us {
+    padding: 0.2em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.join-us button {
+    background-color: red;
+    padding: 1rem;
+    width: 30%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 1rem;
+    border-radius: 1em;
+    box-shadow: 0px 5px 5px rgb(240, 5, 5);
+    border: none;
+}
+.form-container form {
+    box-shadow: 0px 0px 5px rgb(112, 111, 111);
+    width: 80%;
+    padding: 1rem;
+}
+.form-container form .form-label {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    font-weight: 600;
+}
+.form-container form .form-label span {
+    color: red;
+    font-weight: 800;
+}
+.form-container form .btn-danger{
+    background-color: red;
+    padding: 0.4rem;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 1rem;
+    border-radius: 1em;
+    box-shadow: 0px 0px 2px rgb(31, 10, 10);
+    border: none;
+}
+.form-container form .form-control {
+    background: #f9f9f9;
+    border: 1px solid rgb(36, 110, 48);
+    box-shadow: none;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+    font-weight: normal;
+    transition: all ease-in-out 0.4s;
+    margin-bottom: 5px;
+
+  }
+  .form-container form  textarea:focus,
+  .form-container form  select:focus,
+  .form-container form  input[type="text"]:focus,
+  .form-container form  input[type="date"]:focus,
+  .form-container form  input[type="month"]:focus,
+  .form-container form  input[type="time"]:focus,
+  .form-container form  input[type="week"]:focus,
+  .form-container form  input[type="email"]:focus,
+  .form-container form  input[type="tel"]:focus,
+  .form-container form  .uneditable-input:focus {   
+  box-shadow:  0px 0px 4px #084902!important; 
+  outline: none;
+  transition: all 0.2s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  opacity:0.8;
+ 
+}
+.form-container form  input,
+.form-container form  select {
+    height: 45px;
+  }
+ [placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+ }
+@media (max-width:768px) {
+    .join-us button {
+        width: 100%;
+    }
+}

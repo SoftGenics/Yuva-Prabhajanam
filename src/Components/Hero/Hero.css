@@ -1,0 +1,8 @@
+.carousel img {
+    height: 100vh;
+}
+@media (max-width: 768px){
+    .carousel img  {
+        height: 50vh;
+    }  
+}
