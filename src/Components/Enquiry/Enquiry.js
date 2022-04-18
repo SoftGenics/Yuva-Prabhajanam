@@ -114,10 +114,12 @@ const Enquiry = () => {
           <Form.Label>మీ నాయకత్వ స్థాయి <span>:</span></Form.Label>
           <Form.Select aria-label="Default select example">
             <option>గ్రామం: </option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </Form.Select>
+              <option value="గ్రామం">గ్రామం</option>
+              <option value="మండల">మండల</option>
+              <option value="నియోజకవర్గం">నియోజకవర్గం </option>
+              <option value="జిల్లా">జిల్లా </option>
+              <option value="రాష్ట్రం">రాష్ట్రం </option>
+              </Form.Select>
           </Col>
         </Row>
         <Row>
